@@ -1,6 +1,14 @@
 import os
 import shutil
 
+'''
+El script organizara los archivos de la carpeta segun su extension en subcarpetas
+Imagenes, Videos, Audios, Documentos, Comprimidos, Ejecutables, Programas, entre otros
+Nota: Este script no se encarga de organizar las carpetas ya existentes || 
+Usted puede modificar la cantidad de extensiones y carpetas segun sus necesidades 
+'''
+
+
 def organizador_carpetas(carpeta):
     tipos_archivos = {
         'Imagenes': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg'],
@@ -41,14 +49,8 @@ def organizador_carpetas(carpeta):
         os.makedirs(carpeta_destino, exist_ok=True)
         shutil.move(ruta_archivo, os.path.join(carpeta_otros, archivo))
     
-    print('Organizacion de carpetas finalizada')
+    print('Organizacion de carpetas finalizada...')
 
 
-'''
-El script organizara los archivos de la carpeta segun su extension en subcarpetas
-Imagenes, Videos, Audios, Documentos, Comprimidos, Ejecutables, Programas, entre otros
-Nota: Este script no se encarga de organizar las carpetas ya existentes || 
-Usted puede modificar la cantidad de extensiones y carpetas segun sus necesidades 
-'''
-
+# indicar la ruta de la carpeta a organizar
 organizador_carpetas('C:/Users/risse/Downloads')
