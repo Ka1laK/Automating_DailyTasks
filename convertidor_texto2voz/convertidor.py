@@ -9,7 +9,7 @@ import docx2txt
 import re
 import threading
 
-# Variables globales
+# variables globales
 engine = pyttsx3.init()
 pausado = False
 index_actual = 0
