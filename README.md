@@ -29,18 +29,4 @@ Antes de usar estos scripts, asegúrate de tener instaladas las siguientes depen
 Instala los módulos con el comando:  
 ```bash
 pip install pyttsx3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
