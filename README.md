@@ -29,15 +29,6 @@ Antes de usar estos scripts, asegúrate de tener instaladas las siguientes depen
 Instala los módulos con el comando:  
 ```bash
 pip install pyttsx3
-```
-## 📂 **Estructura del Repositorio**
-
-Automating_DailyTasks/
-├── archivos_duplicados.py  # Script para encontrar archivos duplicados
-├── convertidor.py    # Convertidor de Texto a Voz
-├── organizador_Carpetas.py  # Organizador de Carpetas
-└── README.md             # Este archivo
-
 
 
 
