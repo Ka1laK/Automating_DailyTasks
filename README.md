@@ -16,6 +16,9 @@ Convierte texto en audio utilizando una interfaz de usuario creada con `tkinter`
 Mantén tus directorios limpios y organizados automáticamente. Este script clasifica los archivos en subcarpetas según su tipo (imágenes, documentos, música, etc.).  
 💡 **Uso:** Especifica el directorio a organizar y el script hará el resto.  
 
+### 4. 🛜 **Generador de QR para WIFI**  
+¿Cansado de configurar el WIFI para cada visitante en tu casa o restaurante? ¡El siguiente script te facilitará la vida! Solo necesitas cambiar los datos actuales por los de tu red y especificar la ruta donde deseas que se descargue el QR. ¡Olvídate de recordar la contraseña y de configurar el WIFI uno por uno para tus visitantes!
+
 ---
 
 ## 🔧 **Requisitos**  
@@ -24,7 +27,8 @@ Antes de usar estos scripts, asegúrate de tener instaladas las siguientes depen
 - **Python 3.6+**  
 - Módulos adicionales (instalables con `pip`):  
   - `tkinter`  
-  - `pyttsx3` (para el Convertidor de Texto a Voz)  
+  - `pyttsx3` (para el Convertidor de Texto a Voz)
+  - `qrcode`
 
 Instala los módulos con el comando:  
 ```bash
